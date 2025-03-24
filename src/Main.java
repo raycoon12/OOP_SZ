@@ -1,15 +1,37 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.ArrayList;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Wiadomosci");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i+1);
-        }
+        Point p1 = new Point();
+        p1.setX(5);
+        p1.setY(6);
+
+        Point p2 = new Point(7,8);
+
+        Point p3 = new Point(p1);
+        Point p4 = new Point(p2);
+
+
+        Segment s1 = new Segment(p1,p2);
+        Segment s2 = new Segment(p3,p4);
+        p1.setX(15);
+        p1.setY(12);
+        p2.setX(15);
+        p2.setY(8);
+
+        ArrayList<Point> points = new ArrayList<>();
+        points.add(new Point(90,70));
+        points.add(new Point(80,70));
+        points.add(new Point(70,70));
+        points.add(new Point(60,70));
+        points.add(new Point(50,70));
+
+        Polygon poly = new Polygon(points);
+
+
     }
 }
+
