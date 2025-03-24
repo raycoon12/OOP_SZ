@@ -27,7 +27,6 @@ public class Polygon extends Shape {
         return beginning + midlle + ending;
     }
 
-
     public Polygon(ArrayList<Point> points) {
         super();
         this.points = points;

@@ -1,7 +1,6 @@
 public class Circle extends Ellipse{
     public Circle() {
     }
-
     public Circle(Style gangnam, Point center, double r) {
         super(gangnam, center, r, r);
     }

@@ -8,7 +8,6 @@ public abstract class Shape {
     public Shape(){
     }
 
-
     public Style getGangnam() {
         return gangnam;
     }

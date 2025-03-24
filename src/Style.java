@@ -2,7 +2,6 @@ public class Style {
     private String fillColor;
     private String strokeColor;
     private double strokeWidth;
-
     public String getFillColor() {
         return fillColor;
     }

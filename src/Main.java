@@ -25,7 +25,7 @@ public class Main {
             fw.write(picture.toSvg());
             fw.close();
         }catch (IOException e){
-            System.out.println("Not hello");
+            System.out.println("Not Hello");
         }
     }
 }

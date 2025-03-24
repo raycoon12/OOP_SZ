@@ -2,7 +2,6 @@ public class Ellipse extends Shape{
     private Point center;
 
     private double rx, ry;
-
     public Ellipse(){}
     public Ellipse(Style gangnam, Point center, double rx, double ry) {
         super(gangnam);
