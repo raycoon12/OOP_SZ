@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Polygon extends Shape {
+public class Polygon implements Shape {
 
 
     private ArrayList<Point> points;
@@ -22,17 +22,18 @@ public class Polygon extends Shape {
             midlle += p.getX() + "," +p.getY() + " ";
         }
         String ending ="\" " +
-                gangnam.toSvg() +
+//                gangnam.toSvg() +
                 "\" />\n";
         return beginning + midlle + ending;
     }
+
 
     public Polygon(ArrayList<Point> points) {
         super();
         this.points = points;
     }
     public Polygon(ArrayList<Point> points, Style gangnam) {
-        super(gangnam);
+//        super(gangnam);
         this.points = points;
     }
 
