@@ -24,6 +24,7 @@ public class SvgScene {
     public SvgScene(){
         shapes = new ArrayList<>();
     }
+
     public String toSvg(){
         String beggining = "<svg height=\"" + height +
                 "\" width=\"" + width +
